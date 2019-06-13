@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="clover-common-utils" />
+        <module name="clover-common-persistence" />
+        <module name="dragon-sdk-web" />
+        <module name="clover-common-service" />
+        <module name="clover-common-jwt-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="clover-common-jwt-web" target="1.8" />
+      <module name="clover-common-parent" target="1.8" />
+      <module name="clover-common-persistence" target="1.8" />
+      <module name="clover-common-service" target="1.8" />
+      <module name="clover-common-utils" target="1.8" />
+      <module name="dragon-sdk-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="clover-common-jwt-web" options="" />
+      <module name="clover-common-persistence" options="" />
+      <module name="clover-common-service" options="" />
+      <module name="clover-common-utils" options="" />
+      <module name="dragon-sdk-web" options="" />
+    </option>
+  </component>
+</project>
